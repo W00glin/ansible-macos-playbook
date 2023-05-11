@@ -12,25 +12,38 @@ homebrew_apps:
   - font-cascadia-code-pl
   - font-cascadia-code-mono
   - font-cascadia-code-mono-pl
+
 # Terminal emulator as alternative to Apple's Terminal app
   - iterm2
+
 # Move and resize windows using keyboard shortcuts or snap areas
   - rectangle
+
 # Install VSCode
   - visual-studio-code
+
 # Install flameshot, screenshot tool similar to `snipping tool` from Windows
   - flameshot
+
 # Install alt-tab for a Windows-like alt-tab experience
   - alt-tab
-homebrew_packages:
+
 # Automate deployment, configuration, and upgrading
   - ansible
+
 # Install UTM for virtualization on Apple Silicon
   - utm
+  
 # Install unnaturalscrollwheels which allows scrolling to be inverted on mice
   - unnaturalscrollwheels
+
 # Install nmap
   - nmap
+  
+# Install Obisidian MD for note-taking
+  - obsidian
+homebrew_packages:
+
 
 # MAS (Mac App Store) applications
 # Commented out since MAS are not currently being used, but kept
