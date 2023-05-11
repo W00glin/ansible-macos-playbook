@@ -49,7 +49,7 @@ If you have not already you will want to tweak/configure the `default.config.yml
 
 Don't skip this, otherwise your computer will be provisioned just like mine.
 
-This first command copies the repo ansible config into another one called `config.yml` probably not needed, but good practice.
+This first command copies the repo `ansible` config into another one called `config.yml` probably not needed, but good practice.
 ```shell
 cp default.config.yml config.yml
 ```

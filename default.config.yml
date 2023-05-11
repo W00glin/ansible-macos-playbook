@@ -28,6 +28,7 @@ homebrew_apps:
 # Install alt-tab for a Windows-like alt-tab experience
   - alt-tab
 
+homebrew_packages:
 # Automate deployment, configuration, and upgrading
   - ansible
 
@@ -42,8 +43,6 @@ homebrew_apps:
   
 # Install Obisidian MD for note-taking
   - obsidian
-homebrew_packages:
-
 
 # MAS (Mac App Store) applications
 # Commented out since MAS are not currently being used, but kept
