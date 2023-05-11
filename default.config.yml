@@ -6,7 +6,7 @@ homebrew_taps:
   - homebrew/cask-fonts
   - homebrew/cask-versions
 
-homebrew_apps:
+homebrew_apps: #This are `casks` in homebrew speak
 # Install firefox
   - firefox
 
