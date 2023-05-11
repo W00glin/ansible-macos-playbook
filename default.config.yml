@@ -7,6 +7,9 @@ homebrew_taps:
   - homebrew/cask-versions
 
 homebrew_apps:
+# Install firefox
+  - firefox
+
 # OSX Install Cascadia Code Fonts
   - font-cascadia-code
   - font-cascadia-code-pl
@@ -28,9 +31,8 @@ homebrew_apps:
 # Install alt-tab for a Windows-like alt-tab experience
   - alt-tab
 
-homebrew_packages:
-# Automate deployment, configuration, and upgrading
-  - ansible
+# Install Obisidian MD for note-taking
+  - obsidian
 
 # Install UTM for virtualization on Apple Silicon
   - utm
@@ -38,11 +40,20 @@ homebrew_packages:
 # Install unnaturalscrollwheels which allows scrolling to be inverted on mice
   - unnaturalscrollwheels
 
-# Install nmap
+# Install vlc
+  - vlc
+
+# Install appcleaner
+  - appcleaner
+
+
+homebrew_packages:
+  - ansible
   - nmap
-  
-# Install Obisidian MD for note-taking
-  - obsidian
+  - htop
+  - zsh-completions
+  - docker #🐳
+
 
 # MAS (Mac App Store) applications
 # Commented out since MAS are not currently being used, but kept
