@@ -22,5 +22,3 @@
       tags: [homebrew]
     - role: mas
       tags: [mas]
-    - role: settings
-      tags: [settings]

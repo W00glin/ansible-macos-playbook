@@ -11,8 +11,16 @@ This is the playbook I use after a clean install of MacOS to set everything up.
 
 ## Installation
 
-1. Install [Homebrew](https://brew.sh).
+1. Install [Homebrew](https://brew.sh) from this site. Review documentation to make sure you understand it.
 
+You can also install it with -
+
+```shell
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+Once `homebrew` is installed you will then need to install `ansible`
+
+Run the following -
 ```shell
 brew install ansible
 # Don't skip this, otherwise your computer will be provisioned like mine
