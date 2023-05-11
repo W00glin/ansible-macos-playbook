@@ -47,14 +47,7 @@ If you see that, it is installed.
 3. Running the playbook
 If you have not already you will want to tweak/configure the `default.config.yml` to install whatever applications you would like. This fork/repo represents tools I would like installed.
 
-Don't skip this, otherwise your computer will be provisioned just like mine.
-
-This first command copies the repo `ansible` config into another one called `config.yml` probably not needed, but good practice.
-```shell
-cp default.config.yml config.yml
-```
-
-This second command will review the changes being applied to your machine
+This command will review the changes being applied to your machine
 ```shell
 ansible-playbook --check main.yml
 ```
