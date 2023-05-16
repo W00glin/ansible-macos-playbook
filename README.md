@@ -1,4 +1,4 @@
-# Ansible MacOS Playbook 
+# Ansible MacOS Playbook👨🏼‍💻
 
 Howdy, This is the playbook I use after a clean install of MacOS to get *most* of everything setup.
 
@@ -16,7 +16,7 @@ Not currently in use -
 
 ## Installation
 
-1. Install [Homebrew](https://brew.sh) from this site. Review documentation to make sure you understand it.
+1. Install 🍺[Homebrew](https://brew.sh) from this site. Review documentation to make sure you understand it.
 
 You can also install it with -
 
@@ -72,3 +72,5 @@ git rebase upstream/main
 
 This playbook is heavily inspired by
 [Jeff Geerling's mac-dev-playbook](https://github.com/geerlingguy/mac-dev-playbook).
+
+And my [Pop!_OS playbook](https://github.com/W00glin/ansible_pop_os-desktop-) which is actually a fork of this [repo here](https://github.com/sys0dm1n/ansible-ubuntu-desktop).

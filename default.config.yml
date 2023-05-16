@@ -46,6 +46,8 @@ homebrew_apps: #This are `casks` in homebrew speak
 # Install appcleaner
   - appcleaner
 
+# Install Drivers for DisplayLink docks, adapters and monitors
+  - displaylink
 
 homebrew_packages:
   - ansible
