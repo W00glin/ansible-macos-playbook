@@ -49,12 +49,16 @@ homebrew_apps: #This are `casks` in homebrew speak
 # Install Drivers for DisplayLink docks, adapters and monitors
   - displaylink
 
+# Install Microsoft RDP Client 🤢🤮
+  - microsoft-remote-desktop
+
 homebrew_packages:
   - ansible
   - nmap
   - htop
   - zsh-completions
   - docker #🐳
+  - tldr
 
 
 # MAS (Mac App Store) applications
