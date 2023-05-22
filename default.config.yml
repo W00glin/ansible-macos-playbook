@@ -52,6 +52,8 @@ homebrew_apps: #This are `casks` in homebrew speak
 # Install Microsoft RDP Client 🤢🤮
   - microsoft-remote-desktop
 
+# Install monitorcontrol to use the native DDC/CI of external monitors to control their brightness and contrast and volume through the menu bar rather than the physical monitor controls
+  - monitorcontrol
 homebrew_packages:
   - ansible
   - nmap
