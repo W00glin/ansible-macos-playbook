@@ -54,6 +54,11 @@ homebrew_apps: #This are `casks` in homebrew speak
 
 # Install monitorcontrol to use the native DDC/CI of external monitors to control their brightness and contrast and volume through the menu bar rather than the physical monitor controls
   - monitorcontrol
+
+# Install wireshark
+  - wireshark
+
+  
 homebrew_packages:
   - ansible
   - nmap
@@ -61,7 +66,7 @@ homebrew_packages:
   - zsh-completions
   - docker #🐳
   - tldr
-  - wireshark
+
 
 
 # MAS (Mac App Store) applications
