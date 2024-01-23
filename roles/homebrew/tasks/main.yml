@@ -25,7 +25,7 @@
     name: "{{ item.name|default(item) }}"
     state: "{{ item.state|default('present') }}"
   loop: "{{ homebrew_taps }}"
-  when: homebrew_taps|default([])|count > 0 and (item.name != 'homebrew/cask')
+  when: homebrew_taps|default([])|count > 0 and ('homebrew/cask' not in item|default(''))
 
 - name: Ensure apps
   homebrew_cask:
