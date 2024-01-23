@@ -1,23 +1,23 @@
 ---
 
 #Adding to try and troubleshooting why Brew casks is failing
-- name: Debug homebrew_taps
-  debug:
-    var: homebrew_taps
-- name: Ensure taps
-  homebrew_tap:
-    name: "{{ item.name|default(item) }}"
-    state: "{{ item.state|default('present') }}"
-  loop: "{{ homebrew_taps }}"
-  when: homebrew_taps|default([])|count > 0
+#- name: Debug homebrew_taps
+#  debug:
+#    var: homebrew_taps
+#- name: Ensure taps
+#  homebrew_tap:
+#    name: "{{ item.name|default(item) }}"
+#    state: "{{ item.state|default('present') }}"
+#  loop: "{{ homebrew_taps }}"
+#  when: homebrew_taps|default([])|count > 0
 
 #Adding to try and troubleshooting why Brew casks is failing
-- name: Update Homebrew
-  homebrew:
-    name: "{{ item.name|default(item) }}"
-    state: latest
-  loop:
-    - ansible
+#- name: Update Homebrew
+#  homebrew:
+#    name: "{{ item.name|default(item) }}"
+#    state: latest
+#  loop:
+#    - ansible
 
 
 - name: Ensure taps
@@ -25,7 +25,7 @@
     name: "{{ item.name|default(item) }}"
     state: "{{ item.state|default('present') }}"
   loop: "{{ homebrew_taps }}"
-  when: homebrew_taps|default([])|count > 0
+  when: homebrew_taps|default([])|count > 0 and item.name != 'homebrew/cask'
 
 - name: Ensure apps
   homebrew_cask:
