@@ -57,6 +57,8 @@ homebrew_apps: #This are `casks` in homebrew speak
 # Install wireshark
   - wireshark
 
+# Install Signal
+  - signal
   
 homebrew_packages:
   - ansible
